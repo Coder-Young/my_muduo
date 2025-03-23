@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzq/github/mymuduo
+CMAKE_SOURCE_DIR = /home/yzq/github/myMuduo/my_muduo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzq/github/mymuduo/build
+CMAKE_BINARY_DIR = /home/yzq/github/myMuduo/my_muduo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzq/github/mymuduo/build/CMakeFiles /home/yzq/github/mymuduo/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzq/github/myMuduo/my_muduo/build/CMakeFiles /home/yzq/github/myMuduo/my_muduo/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzq/github/mymuduo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzq/github/myMuduo/my_muduo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,54 @@ mymuduo: cmake_check_build_system
 mymuduo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/build
 .PHONY : mymuduo/fast
+
+src/Channel.o: src/Channel.cpp.o
+.PHONY : src/Channel.o
+
+# target to build an object file
+src/Channel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Channel.cpp.o
+.PHONY : src/Channel.cpp.o
+
+src/Channel.i: src/Channel.cpp.i
+.PHONY : src/Channel.i
+
+# target to preprocess a source file
+src/Channel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Channel.cpp.i
+.PHONY : src/Channel.cpp.i
+
+src/Channel.s: src/Channel.cpp.s
+.PHONY : src/Channel.s
+
+# target to generate assembly for a file
+src/Channel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Channel.cpp.s
+.PHONY : src/Channel.cpp.s
+
+src/inetAddress.o: src/inetAddress.cpp.o
+.PHONY : src/inetAddress.o
+
+# target to build an object file
+src/inetAddress.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/inetAddress.cpp.o
+.PHONY : src/inetAddress.cpp.o
+
+src/inetAddress.i: src/inetAddress.cpp.i
+.PHONY : src/inetAddress.i
+
+# target to preprocess a source file
+src/inetAddress.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/inetAddress.cpp.i
+.PHONY : src/inetAddress.cpp.i
+
+src/inetAddress.s: src/inetAddress.cpp.s
+.PHONY : src/inetAddress.s
+
+# target to generate assembly for a file
+src/inetAddress.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/inetAddress.cpp.s
+.PHONY : src/inetAddress.cpp.s
 
 src/logger.o: src/logger.cpp.o
 .PHONY : src/logger.o
@@ -210,6 +258,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mymuduo"
+	@echo "... src/Channel.o"
+	@echo "... src/Channel.i"
+	@echo "... src/Channel.s"
+	@echo "... src/inetAddress.o"
+	@echo "... src/inetAddress.i"
+	@echo "... src/inetAddress.s"
 	@echo "... src/logger.o"
 	@echo "... src/logger.i"
 	@echo "... src/logger.s"

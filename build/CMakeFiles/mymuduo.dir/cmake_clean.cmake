@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/mymuduo.dir/src/Channel.cpp.o"
+  "CMakeFiles/mymuduo.dir/src/Channel.cpp.o.d"
+  "CMakeFiles/mymuduo.dir/src/inetAddress.cpp.o"
+  "CMakeFiles/mymuduo.dir/src/inetAddress.cpp.o.d"
   "CMakeFiles/mymuduo.dir/src/logger.cpp.o"
   "CMakeFiles/mymuduo.dir/src/logger.cpp.o.d"
   "CMakeFiles/mymuduo.dir/src/test.cpp.o"

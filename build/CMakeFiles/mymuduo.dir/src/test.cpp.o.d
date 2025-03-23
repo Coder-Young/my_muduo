@@ -1,7 +1,8 @@
 CMakeFiles/mymuduo.dir/src/test.cpp.o: \
- /home/yzq/github/mymuduo/src/test.cpp /usr/include/stdc-predef.h \
- /home/yzq/github/mymuduo/src/../include/logger.h \
- /home/yzq/github/mymuduo/src/../include/nocopyable.h \
+ /home/yzq/github/myMuduo/my_muduo/src/test.cpp \
+ /usr/include/stdc-predef.h \
+ /home/yzq/github/myMuduo/my_muduo/src/../include/logger.h \
+ /home/yzq/github/myMuduo/my_muduo/src/../include/nocopyable.h \
  /usr/include/c++/7/string \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -116,4 +117,34 @@ CMakeFiles/mymuduo.dir/src/test.cpp.o: \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/c++/7/bits/functional_hash.h \
- /usr/include/c++/7/bits/basic_string.tcc
+ /usr/include/c++/7/bits/basic_string.tcc \
+ /home/yzq/github/myMuduo/my_muduo/src/../include/inetAddress.h \
+ /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/c++/7/iostream \
+ /usr/include/c++/7/ostream /usr/include/c++/7/ios \
+ /usr/include/c++/7/bits/ios_base.h \
+ /usr/include/c++/7/bits/locale_classes.h \
+ /usr/include/c++/7/bits/locale_classes.tcc \
+ /usr/include/c++/7/system_error \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h \
+ /usr/include/c++/7/stdexcept /usr/include/c++/7/streambuf \
+ /usr/include/c++/7/bits/streambuf.tcc \
+ /usr/include/c++/7/bits/basic_ios.h \
+ /usr/include/c++/7/bits/locale_facets.h /usr/include/c++/7/cwctype \
+ /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h \
+ /usr/include/c++/7/bits/streambuf_iterator.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h \
+ /usr/include/c++/7/bits/locale_facets.tcc \
+ /usr/include/c++/7/bits/basic_ios.tcc \
+ /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream \
+ /usr/include/c++/7/bits/istream.tcc

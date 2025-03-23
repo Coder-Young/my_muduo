@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/yzq/github/mymuduo/./include
+CXX_INCLUDES = -I/home/yzq/github/myMuduo/my_muduo/./include
 
 CXX_FLAGS = 
 

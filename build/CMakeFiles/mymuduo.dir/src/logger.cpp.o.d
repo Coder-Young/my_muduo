@@ -1,7 +1,8 @@
 CMakeFiles/mymuduo.dir/src/logger.cpp.o: \
- /home/yzq/github/mymuduo/src/logger.cpp /usr/include/stdc-predef.h \
- /home/yzq/github/mymuduo/src/../include/logger.h \
- /home/yzq/github/mymuduo/src/../include/nocopyable.h \
+ /home/yzq/github/myMuduo/my_muduo/src/logger.cpp \
+ /usr/include/stdc-predef.h \
+ /home/yzq/github/myMuduo/my_muduo/src/../include/logger.h \
+ /home/yzq/github/myMuduo/my_muduo/src/../include/nocopyable.h \
  /usr/include/c++/7/string \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -117,7 +118,7 @@ CMakeFiles/mymuduo.dir/src/logger.cpp.o: \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/c++/7/bits/functional_hash.h \
  /usr/include/c++/7/bits/basic_string.tcc \
- /home/yzq/github/mymuduo/src/../include/timestamp.h \
+ /home/yzq/github/myMuduo/my_muduo/src/../include/timestamp.h \
  /usr/include/c++/7/iostream /usr/include/c++/7/ostream \
  /usr/include/c++/7/ios /usr/include/c++/7/bits/ios_base.h \
  /usr/include/c++/7/bits/locale_classes.h \
