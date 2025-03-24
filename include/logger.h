@@ -29,6 +29,7 @@
             char buf[1024]; \
             snprintf(buf, 1024, logmsgformat, ##__VA_ARGS__); \
             log->log(buf); \
+            exit(-1); \
         } while (0);
 
 #define LOGDEBUG(logmsgformat, ...) \

@@ -153,6 +153,78 @@ src/Channel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Channel.cpp.s
 .PHONY : src/Channel.cpp.s
 
+src/DefaultPoller.o: src/DefaultPoller.cpp.o
+.PHONY : src/DefaultPoller.o
+
+# target to build an object file
+src/DefaultPoller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/DefaultPoller.cpp.o
+.PHONY : src/DefaultPoller.cpp.o
+
+src/DefaultPoller.i: src/DefaultPoller.cpp.i
+.PHONY : src/DefaultPoller.i
+
+# target to preprocess a source file
+src/DefaultPoller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/DefaultPoller.cpp.i
+.PHONY : src/DefaultPoller.cpp.i
+
+src/DefaultPoller.s: src/DefaultPoller.cpp.s
+.PHONY : src/DefaultPoller.s
+
+# target to generate assembly for a file
+src/DefaultPoller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/DefaultPoller.cpp.s
+.PHONY : src/DefaultPoller.cpp.s
+
+src/EPollerPoller.o: src/EPollerPoller.cpp.o
+.PHONY : src/EPollerPoller.o
+
+# target to build an object file
+src/EPollerPoller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/EPollerPoller.cpp.o
+.PHONY : src/EPollerPoller.cpp.o
+
+src/EPollerPoller.i: src/EPollerPoller.cpp.i
+.PHONY : src/EPollerPoller.i
+
+# target to preprocess a source file
+src/EPollerPoller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/EPollerPoller.cpp.i
+.PHONY : src/EPollerPoller.cpp.i
+
+src/EPollerPoller.s: src/EPollerPoller.cpp.s
+.PHONY : src/EPollerPoller.s
+
+# target to generate assembly for a file
+src/EPollerPoller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/EPollerPoller.cpp.s
+.PHONY : src/EPollerPoller.cpp.s
+
+src/Poller.o: src/Poller.cpp.o
+.PHONY : src/Poller.o
+
+# target to build an object file
+src/Poller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Poller.cpp.o
+.PHONY : src/Poller.cpp.o
+
+src/Poller.i: src/Poller.cpp.i
+.PHONY : src/Poller.i
+
+# target to preprocess a source file
+src/Poller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Poller.cpp.i
+.PHONY : src/Poller.cpp.i
+
+src/Poller.s: src/Poller.cpp.s
+.PHONY : src/Poller.s
+
+# target to generate assembly for a file
+src/Poller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/src/Poller.cpp.s
+.PHONY : src/Poller.cpp.s
+
 src/inetAddress.o: src/inetAddress.cpp.o
 .PHONY : src/inetAddress.o
 
@@ -261,6 +333,15 @@ help:
 	@echo "... src/Channel.o"
 	@echo "... src/Channel.i"
 	@echo "... src/Channel.s"
+	@echo "... src/DefaultPoller.o"
+	@echo "... src/DefaultPoller.i"
+	@echo "... src/DefaultPoller.s"
+	@echo "... src/EPollerPoller.o"
+	@echo "... src/EPollerPoller.i"
+	@echo "... src/EPollerPoller.s"
+	@echo "... src/Poller.o"
+	@echo "... src/Poller.i"
+	@echo "... src/Poller.s"
 	@echo "... src/inetAddress.o"
 	@echo "... src/inetAddress.i"
 	@echo "... src/inetAddress.s"

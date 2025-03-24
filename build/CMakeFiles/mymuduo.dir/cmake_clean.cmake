@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mymuduo.dir/src/Channel.cpp.o"
   "CMakeFiles/mymuduo.dir/src/Channel.cpp.o.d"
+  "CMakeFiles/mymuduo.dir/src/DefaultPoller.cpp.o"
+  "CMakeFiles/mymuduo.dir/src/DefaultPoller.cpp.o.d"
+  "CMakeFiles/mymuduo.dir/src/EPollerPoller.cpp.o"
+  "CMakeFiles/mymuduo.dir/src/EPollerPoller.cpp.o.d"
+  "CMakeFiles/mymuduo.dir/src/Poller.cpp.o"
+  "CMakeFiles/mymuduo.dir/src/Poller.cpp.o.d"
   "CMakeFiles/mymuduo.dir/src/inetAddress.cpp.o"
   "CMakeFiles/mymuduo.dir/src/inetAddress.cpp.o.d"
   "CMakeFiles/mymuduo.dir/src/logger.cpp.o"
